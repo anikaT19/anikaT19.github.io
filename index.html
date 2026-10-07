@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anika Tabassum — Software Engineer</title>
+  <meta name="description" content="Portfolio of Anika Tabassum, CSE student at IUB — software engineering and machine learning projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav">
+    <a href="#top" class="logo">&lt;anika /&gt;</a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">◐</button>
+      <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <p class="mono greeting">Hi, my name is</p>
+      <h1>Anika Tabassum.</h1>
+      <h2 class="typed-line">I build <span id="typed" class="accent"></span><span class="cursor">|</span></h2>
+      <p class="hero-text">
+        Computer Science &amp; Engineering student at Independent University, Bangladesh,
+        focused on software engineering and machine learning. I enjoy building
+        practical, data-driven applications and learning how systems work end to end.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View my work</a>
+        <a href="assets/Anika_Tabassum_CV.pdf" class="btn" download>Download CV</a>
+        <a href="https://github.com/anikaT19" target="_blank" rel="noopener" class="btn ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/anikatabassumcse/" target="_blank" rel="noopener" class="btn ghost">LinkedIn ↗</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section reveal">
+      <h3 class="section-title"><span class="mono">01.</span> About me</h3>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a Computer Science &amp; Engineering student at IUB with a strong interest in
+            <strong>software development</strong> and <strong>machine learning</strong>.
+            I like taking a problem from raw data all the way to a working application.
+          </p>
+          <p>
+            I've worked on machine learning projects such as a satellite collision predictor,
+            and I've completed Cisco's CCNA: Introduction to Networks course, which gave me a
+            solid foundation in how networks and the internet work underneath the software I build.
+          </p>
+          <p>I'm looking for <strong>software engineering / developer</strong> roles and internships.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><span class="stat-num" data-count="2">0</span><span>Projects</span></div>
+          <div class="stat"><span class="stat-num" data-count="1">0</span><span>Certification</span></div>
+          <div class="stat"><span class="stat-num" data-count="4">0</span><span>Languages</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section reveal">
+      <h3 class="section-title"><span class="mono">02.</span> Skills</h3>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section reveal">
+      <h3 class="section-title"><span class="mono">03.</span> Projects</h3>
+      <div class="filters" id="filters"></div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section reveal">
+      <h3 class="section-title"><span class="mono">04.</span> Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>B.Sc. in Computer Science &amp; Engineering</h4>
+            <p class="muted">Independent University, Bangladesh (IUB)</p>
+            <p>Relevant coursework: Software Engineering, Artificial Intelligence, Database Systems, Data Structures &amp; Algorithms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="certifications" class="section reveal">
+      <h3 class="section-title"><span class="mono">05.</span> Certifications</h3>
+      <div class="cert-card">
+        <img src="assets/cisco-ccna-itn-badge.png" alt="Cisco CCNA: Introduction to Networks verified badge" class="cert-badge" />
+        <div class="cert-body">
+          <h4>CCNA: Introduction to Networks</h4>
+          <p class="muted">Cisco Networking Academy · Issued Aug 2026</p>
+          <ul class="cert-skills">
+            <li>Configured switches, routers and end devices for local and remote network access</li>
+            <li>Built IPv4 &amp; IPv6 addressing schemes and verified connectivity</li>
+            <li>Set up a small network with security best practices and troubleshot connectivity</li>
+          </ul>
+          <div class="cert-links">
+            <a href="https://www.credly.com/badges/df9d6552-9857-4c76-ac7e-0fe308bdc58f" target="_blank" rel="noopener" class="btn primary">Verify on Credly ↗</a>
+            <a href="assets/Cisco_CCNA_ITN_Certificate.pdf" target="_blank" rel="noopener" class="btn">View certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section reveal contact">
+      <h3 class="section-title center"><span class="mono">06.</span> Get in touch</h3>
+      <p>I'm open to internships and junior developer roles. Whether you have an opportunity or just want to say hi, my inbox is open.</p>
+      <a href="mailto:your.email@example.com" class="btn primary big">Say hello</a>
+      <div class="socials">
+        <a href="https://github.com/anikaT19" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/anikatabassumcse/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:your.email@example.com">Email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="mono">Designed &amp; built by Anika Tabassum · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
