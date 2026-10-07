@@ -12,7 +12,7 @@ const projects = [
     description:
       "Machine learning project that predicts the risk of collisions between satellites in orbit. Built as a team project.",
     tech: ["Python", "Machine Learning"],
-    github: "https://github.com/anikaT19",
+    github: "https://github.com/sadmanmahmood3/satcollide",
     live: "",
   },
   {
